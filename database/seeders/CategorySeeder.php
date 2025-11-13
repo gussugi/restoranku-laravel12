@@ -12,8 +12,8 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         $categories = [
-            ['category_name' => 'Appetizers', 'description' => 'Start your meal with our delicious appetizers.'],
-            ['category_name' => 'Main Courses', 'description' => 'Hearty and satisfying main dishes to enjoy.'],
+            ['category_name' => 'Manakanan', 'description' => 'Ini adalah makanan.'],
+            ['category_name' => 'Minuman', 'description' => 'Ini adalah minuman.'],
         ];
 
         DB::table('categories')->insert($categories);
